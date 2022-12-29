@@ -1,0 +1,8 @@
+.header {
+  width: auto;
+  height: auto;
+  background-image: url("/src/imgs/1.png");
+  background-size: cover;
+  border-radius: 25px;
+  box-shadow: -10px 10px 20px -15px rgba(7, 9, 24, 0.401), -14px 16px 22px -15px rgba(7, 9, 24, 0.401), -18px 18px 24px -15px rgba(7, 9, 24, 0.401), -28px 28px 28px -15px rgba(7, 9, 24, 0.401), -32px 32px 36px -15px rgba(7, 9, 24, 0.401), -64px 32px 42px -15px rgba(7, 9, 24, 0.401), -128px 64px 64px -15px rgba(7, 9, 24, 0.401);
+}/*# sourceMappingURL=header.css.map */

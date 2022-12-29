@@ -1,0 +1,20 @@
+$shadow: rgba(7, 9, 24, 0.45);
+$card1: #2c2232;
+$card2: #171624;
+
+.card {
+    margin: auto;
+    // background-color: $card;
+    background:
+        linear-gradient(45deg, $card2, rgba(255, 0, 0, 0) 80%),
+        linear-gradient(225deg, $card1, rgba(0, 0, 255, 0) 70%);
+    box-shadow:
+        -10px 10px 20px -15px $shadow,
+        -14px 16px 22px -15px $shadow,
+        -18px 18px 24px -15px $shadow,
+        -28px 28px 28px -15px $shadow,
+        -32px 32px 36px -15px $shadow,
+        -64px 32px 42px -15px $shadow;
+    border-radius: 25px;
+    min-width: 200px;
+}

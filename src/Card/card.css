@@ -1,0 +1,7 @@
+.card {
+  margin: auto;
+  background: linear-gradient(45deg, #171624, rgba(255, 0, 0, 0) 80%), linear-gradient(225deg, #2c2232, rgba(0, 0, 255, 0) 70%);
+  box-shadow: -10px 10px 20px -15px rgba(7, 9, 24, 0.45), -14px 16px 22px -15px rgba(7, 9, 24, 0.45), -18px 18px 24px -15px rgba(7, 9, 24, 0.45), -28px 28px 28px -15px rgba(7, 9, 24, 0.45), -32px 32px 36px -15px rgba(7, 9, 24, 0.45), -64px 32px 42px -15px rgba(7, 9, 24, 0.45);
+  border-radius: 25px;
+  min-width: 200px;
+}/*# sourceMappingURL=card.css.map */
