@@ -8,13 +8,13 @@ function App() {
     <div className="App">
       <div className='Card-box'>
         <Header />
-        <Card text = {"1"} />
-        <Card text = {"2"} /> 
-        <Card text = {"3"} />
-        <Card text = {"4"} />
-        <Card text = {"5"} />
-        <Card text = {"6"} />    
-        <Card text = {"7"} />          
+        <Card text = {"card1"} content ={"Graph"} />
+        <Card text = {"card2"} /> 
+        <Card text = {"card3"} />
+        <Card text = {"card4"} />
+        <Card text = {"card5"} />
+        <Card text = {"card6"} />    
+        <Card text = {"card7"} />          
       </div>
     </div>
   );
