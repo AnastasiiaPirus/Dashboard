@@ -1,10 +1,11 @@
 $shadow: rgba(7, 9, 24, 0.401);
 .header {
-    width: auto;
+    //width: auto;
     height: auto;
     background-image: url("/src/imgs/1.png");
     background-size: cover;
-   
+    width: 98.5%;
+    justify-self: center;
     border-radius: 25px;
     box-shadow:
         -10px 10px 20px -15px $shadow,

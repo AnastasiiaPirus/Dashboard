@@ -1,29 +1,20 @@
-import { render } from '@testing-library/react';
 import React from 'react'
 import "./card.css"
 
-export default function Card({ text = "abc" }, { content = "lala" }) {
 
-  function ContentInside() {
-    function parent() {
-      return (
-        <div className='card' id={text}></div>
-      )
-    }
-    let par = parent();
-    console.log(par);
-    let elem = document.createElement(content);
+export default function Card({ text = "abc", content , objHeight = 1}) {
+  const Tag = content
+  objHeight = (12*objHeight + 'vh')
+  const mystyle = {
+    height: objHeight,
+    maxWidth: "100vw",
+    margin:"auto",
+    width: "95%",    
     
-
-  }
-
-
+  };
   return (
-
-    // <div className="card"  >
-    // Card {text}
-    <ContentInside />
-    // </div>
-
+    <div className='card' id={text} style={mystyle} >
+      <Tag />
+    </div>
   )
 }

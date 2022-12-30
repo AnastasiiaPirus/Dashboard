@@ -17,47 +17,47 @@
     'six'
     'seven'
   ;
-  padding-block: 2rem;
+  /* padding-block: 2rem; */
   width: min(95%, 70rem);
   margin-inline: auto;
 }
 
 .card:nth-child(2) {
   grid-area: one;
-  border: 10px pink solid;
+  /* border: 10px pink solid; */
 }
 
 .card:nth-child(3) {
   grid-area: two;
-  border: 10px blue solid;
+  /* border: 10px blue solid; */
 }
 
 .card:nth-child(4) {
   grid-area: three;
-  border: 10px red solid;
+  /* border: 10px red solid; */
 }
 
 .card:nth-child(5) {
   grid-area: four;
-  border: 10px red solid;
+  /* border: 10px red solid; */
 }
 
 .card:nth-child(6) {
   grid-area: five;
-  border: 10px red solid;
+  /* border: 10px red solid; */
 }
 .card:nth-child(7) {
   grid-area: six;
-  border: 10px red solid;
+  /* border: 10px red solid; */
 }
 .card:nth-child(8) {
   grid-area: seven;
-  border: 10px green solid;
+  /* border: 10px green solid; */
 }
 
 .header{
   grid-area: header;
-  border: 10px red solid;
+  /* border: 10px red solid; */
 }
 
 
@@ -72,8 +72,12 @@
       "five"
       "six"
       "seven";
-  height: 100vh;
+  height: 95vh;
   width: 95vw;
+  row-gap: 20px;
+  column-gap: 10px;
+  margin-top: 15px;
+  
 }
 @media only screen and (min-width: 600px) {
   /* For tablets: */
