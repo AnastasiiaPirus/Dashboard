@@ -1,6 +1,12 @@
 $shadow: rgba(7, 9, 24, 0.45);
 $card1: #2c2232;
 $card2: #171624;
+$font-color: #dcc4c4;
+$list-1: #b78177;
+$list-2:#706d80;
+$list-3:#765671;
+
+
 
 .card {
     margin: auto;
@@ -16,5 +22,63 @@ $card2: #171624;
         -32px 32px 36px -15px $shadow,
         -64px 32px 42px -15px $shadow;
     border-radius: 25px;
-    
+    color: $font-color;
+    font-size: 0.6rem;
+    padding-left: 20px;
+}
+
+.chart-box {
+    //border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+.chart {
+    //border: 1px solid green;
+    margin-left: -20px;
+}
+.ulist_chart {
+    //border: 1px solid red;
+    margin-left: -20px;
+}
+li:nth-child(1) {
+    color: $list-1;
+}
+
+li:nth-child(2) {
+    color:  $list-1;
+}
+
+li:nth-child(3) {
+    color:  $list-1;
+}
+li:nth-child(4) {
+    color:  $list-2;
+}
+
+li:nth-child(5) {
+    color: $list-2;
+}
+
+li:nth-child(6) {
+    color: $list-3;
+}
+li:nth-child(7) {
+    color: $list-3;
+}
+
+// .table {
+//     border: 1px solid red;
+// }
+
+.table th {
+    color: $font-color;
+}
+.table th {
+    color: $font-color;
+}
+.table td {
+    color: $list-3;
 }

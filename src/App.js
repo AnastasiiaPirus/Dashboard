@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './Header/Header';
 import Card from './Card/Card';
-import Child from './Card/Child/Child';
+import Child5 from './Card/Child/Child5';
 import Child2 from './Card/Child/Child2';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Card text={"card1"} content={Child2} objHeight={1} />
         <Card text={"card2"} content={Child2} objHeight={1} />
         <Card text={"card3"} content={Child2} objHeight={2} />
-        <Card text={"card4"} content={Child} objHeight={3} />
+        <Card text={"card4"} content={Child5} objHeight={3} />
         <Card text={"card5"} content={Child2} objHeight={3} />
         <Card text={"card6"} content={Child2} objHeight={3} />
         <Card text={"card7"} content={Child2} objHeight={3} />
