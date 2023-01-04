@@ -46,16 +46,32 @@
   grid-area: five;
   /* border: 10px red solid; */
 }
+
 .card:nth-child(7) {
   grid-area: six;
+
+  height: auto;
+  background-image: url("/public/images/3.png") !important;
+  background-size: cover;
+  width: 100%;
+  justify-self: center;
+  border-radius: 25px;
   /* border: 10px red solid; */
 }
+
 .card:nth-child(8) {
   grid-area: seven;
+
+  height: auto;
+  background-image: url("/public/images/2.png") !important;
+  background-size: cover;
+  width: 100%;
+  justify-self: center;
+  border-radius: 25p
   /* border: 10px green solid; */
 }
 
-.header{
+.header {
   grid-area: header;
   /* border: 10px red solid; */
 }
@@ -64,49 +80,54 @@
 /* For mobile phones: */
 .Card-box {
   grid-template-areas:
-      "header"
-      "one"
-      "two"
-      "three"
-      "four"
-      "five"
-      "six"
-      "seven";
+    "header"
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six"
+    "seven";
   height: 95vh;
   width: 95vw;
   row-gap: 20px;
   column-gap: 10px;
   margin-top: 15px;
-  
+
 }
+
 @media only screen and (min-width: 600px) {
+
   /* For tablets: */
   .Card-box {
     grid-template-areas:
-    "header header"
-    "header header"
-    "one two"
-    "three three"    
-    "four five"
-    "six seven";
-  
+      "header header"
+      "header header"
+      "one two"
+      "three three"
+      "four five"
+      "six seven";
+
   }
 }
 
 @media only screen and (min-width: 992px) {
+
   /* For desktop: */
   .Card-box {
     grid-template-areas:
       "header header header"
       "header header header"
       "one one three"
-      "two two three"      
+      "two two three"
       "four five six"
       "four five six"
       "seven seven seven";
   }
 }
+
 @media only screen and (min-width: 1200px) {
+
   /* For desktop: */
   .Card-box {
     grid-template-areas:

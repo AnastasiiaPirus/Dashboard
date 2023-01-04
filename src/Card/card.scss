@@ -1,4 +1,5 @@
 $shadow: rgba(7, 9, 24, 0.45);
+$planet-shadow: rgba(7, 9, 24, 0.618);
 $card1: #2c2232;
 $card2: #171624;
 $font-color: #dcc4c4;
@@ -12,8 +13,8 @@ $list-3:#765671;
     margin: auto;
     // background-color: $card;
     background:
-        linear-gradient(45deg, $card2, rgba(255, 0, 0, 0) 80%),
-        linear-gradient(225deg, $card1, rgba(0, 0, 255, 0) 70%);
+        linear-gradient(45deg, $card2, rgba(255, 0, 0, 0) 90%),
+        linear-gradient(225deg, $card1, rgba(0, 0, 255, 0) 90%);
     box-shadow:
         -10px 10px 20px -15px $shadow,
         -14px 16px 22px -15px $shadow,
@@ -21,7 +22,7 @@ $list-3:#765671;
         -28px 28px 28px -15px $shadow,
         -32px 32px 36px -15px $shadow,
         -64px 32px 42px -15px $shadow;
-    border-radius: 25px;
+    border-radius: 15px;
     color: $font-color;
     font-size: 0.6rem;
     padding-left: 20px;
@@ -43,31 +44,18 @@ $list-3:#765671;
     //border: 1px solid red;
     margin-left: -20px;
 }
-li:nth-child(1) {
+li:nth-child(1), li:nth-child(2), li:nth-child(3) {
     color: $list-1;
 }
 
-li:nth-child(2) {
-    color:  $list-1;
-}
-
-li:nth-child(3) {
-    color:  $list-1;
-}
-li:nth-child(4) {
+li:nth-child(4), li:nth-child(5){
     color:  $list-2;
 }
 
-li:nth-child(5) {
-    color: $list-2;
+li:nth-child(6), li:nth-child(7) {
+    color: $list-3;
 }
 
-li:nth-child(6) {
-    color: $list-3;
-}
-li:nth-child(7) {
-    color: $list-3;
-}
 
 // .table {
 //     border: 1px solid red;
@@ -75,10 +63,35 @@ li:nth-child(7) {
 
 .table th {
     color: $font-color;
+    font-weight: 400;
 }
 .table th {
     color: $font-color;
 }
 .table td {
-    color: $list-3;
+    color: $list-1;
+}
+
+.planets {
+    height: 33px;
+    width: 33px;
+    filter: drop-shadow(-5px 5px 10px  $planet-shadow) drop-shadow(-10px 6px 12px  $planet-shadow) drop-shadow(-8px 8px 14px  $planet-shadow) ;
+    // -webkit-filter: drop-shadow(-10px 10px 20px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-14px 16px 22px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-18px 18px 24px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-28px 28px 28px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-32px 32px 36px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-64px 32px 42px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-128px 64px 64px -15px rgba(7, 9, 24, 0.401));
+    // box-shadow: , , , , , , ;
+    //filter: drop-shadow(10px 10px 10px red) drop-shadow(20px 20px 20px blue);
+
+}
+
+.more {
+    color: $list-1;
+    float: right;
+    margin-right: 10px;
+}
+
+.bottomLine {
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 15px;
 }
