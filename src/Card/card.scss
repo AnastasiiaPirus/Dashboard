@@ -3,9 +3,11 @@ $planet-shadow: rgba(7, 9, 24, 0.618);
 $card1: #2c2232;
 $card2: #171624;
 $font-color: #dcc4c4;
+
 $list-1: #b78177;
-$list-2:#706d80;
-$list-3:#765671;
+$list-2: #706d80;
+$list-3: #765671;
+$number: #fdd3a0;
 
 
 
@@ -26,6 +28,7 @@ $list-3:#765671;
     color: $font-color;
     font-size: 0.6rem;
     padding-left: 20px;
+    min-width: 250px;
 }
 
 .chart-box {
@@ -40,19 +43,25 @@ $list-3:#765671;
     //border: 1px solid green;
     margin-left: -20px;
 }
+
 .ulist_chart {
     //border: 1px solid red;
     margin-left: -20px;
 }
-li:nth-child(1), li:nth-child(2), li:nth-child(3) {
+
+li:nth-child(1),
+li:nth-child(2),
+li:nth-child(3) {
     color: $list-1;
 }
 
-li:nth-child(4), li:nth-child(5){
-    color:  $list-2;
+li:nth-child(4),
+li:nth-child(5) {
+    color: $list-2;
 }
 
-li:nth-child(6), li:nth-child(7) {
+li:nth-child(6),
+li:nth-child(7) {
     color: $list-3;
 }
 
@@ -65,17 +74,19 @@ li:nth-child(6), li:nth-child(7) {
     color: $font-color;
     font-weight: 400;
 }
+
 .table th {
     color: $font-color;
 }
+
 .table td {
     color: $list-1;
 }
 
 .planets {
-    height: 33px;
-    width: 33px;
-    filter: drop-shadow(-5px 5px 10px  $planet-shadow) drop-shadow(-10px 6px 12px  $planet-shadow) drop-shadow(-8px 8px 14px  $planet-shadow) ;
+    height: 42px;
+    width: 42px;
+    filter: drop-shadow(-5px 5px 10px $planet-shadow) drop-shadow(-10px 6px 12px $planet-shadow) drop-shadow(-8px 8px 14px $planet-shadow);
     // -webkit-filter: drop-shadow(-10px 10px 20px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-14px 16px 22px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-18px 18px 24px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-28px 28px 28px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-32px 32px 36px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-64px 32px 42px -15px rgba(7, 9, 24, 0.401)) drop-shadow(-128px 64px 64px -15px rgba(7, 9, 24, 0.401));
     // box-shadow: , , , , , , ;
     //filter: drop-shadow(10px 10px 10px red) drop-shadow(20px 20px 20px blue);
@@ -89,9 +100,82 @@ li:nth-child(6), li:nth-child(7) {
 }
 
 .bottomLine {
-    height: max-content;
     display: flex;
-    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
     justify-content: space-between;
     padding-right: 15px;
+    align-self: flex-end;
+}
+
+.child7 {
+    height: 32vh;
+    position: relative;
+    width: 100%;
+}
+
+.bottomItems {
+    width: min-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.number {
+    font-size: 1.7rem;
+    color: $number;
+}
+
+.number.onChart {
+    position: absolute;
+    top: 1.5rem;
+}
+
+.card#card3 {
+    position: relative;
+}
+
+.sun {
+    height: 42px;
+    width: 42px;
+    background-color: #fba96f;
+    background-image: radial-gradient(farthest-side at 0% 85%, #f08253, #fbb866);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(-5px 5px 10px $planet-shadow) drop-shadow(-10px 6px 12px $planet-shadow) drop-shadow(-8px 8px 14px $planet-shadow);
+    color: #ffe2ce;
+
+}
+
+.weather {
+    //border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+hr {
+    width: 100%;
+    color: #fba96f;
+    background-color: #fba96f;
+    height: 2px;
+    border-width: 0
+}
+
+.line {
+    width: 80%;
+}
+
+div#card1.card  {
+    border: 2px solid red;
+    mask-size:contain;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background: none;
 }
