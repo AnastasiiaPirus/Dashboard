@@ -1,12 +1,15 @@
 $shadow: rgba(7, 9, 24, 0.401);
+$font-color: #dcc4c4;
+$list-1: #b78177;
+$text: #896483;
+$planet-shadow: rgba(7, 9, 24, 0.618);
+$card1: #2c2232;
+$card2: #171624;
 
 .header {
-    //width: auto;
-    height: auto;
-    // background-image: url("/src/imgs/1.png");
+    height: 60vh;
     background-size: cover;
     width: 100%;
-    justify-self: center;
     border-radius: 25px;
     box-shadow:
         -10px 10px 20px -15px $shadow,
@@ -17,4 +20,71 @@ $shadow: rgba(7, 9, 24, 0.401);
         -64px 32px 42px -15px $shadow,
         -128px 64px 64px -15px $shadow;
     background-position: center 20%;
+    font-size: 0.6rem;
+    color: $list-1;  
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.circle {
+    height: 35px;
+    width: 35px;
+    background-color: $list-1;
+    // background-image: radial-gradient(farthest-side at 0% 85%, #f08253, #fbb866);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // filter: drop-shadow(-5px 5px 10px $planet-shadow) drop-shadow(-10px 6px 12px $planet-shadow) drop-shadow(-8px 8px 14px $planet-shadow);
+    color: #ffe2ce;
+    position: relative;
+
+}
+
+.circles-container {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 25px;
+    margin-right: 20px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.circle-text {
+    text-align: center;
+    color: $list-1;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+    
+}
+
+#title {
+    height: 2rem;
+}
+
+#bottom-item {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: red;
+    background:
+        linear-gradient(45deg, $card2, $card1 100%);
+        
+    box-shadow:
+        -10px 10px 20px -15px $shadow,
+        -14px 16px 22px -15px $shadow,
+        -18px 18px 24px -15px $shadow,
+        -28px 28px 28px -15px $shadow,
+        -32px 32px 36px -15px $shadow,
+        -64px 32px 42px -15px $shadow;
+    border-radius: 15px;
+    color: $font-color;
+    height: 1.5rem;
+    padding: 10px;    
+    padding-bottom: 0px;
 }

@@ -105,6 +105,16 @@ li:nth-child(7) {
   position: relative;
 }
 
+@media only screen and (min-width: 992px) {
+  .card#card3 {
+    height: 33vh;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .card#card3 {
+    height: 24vh;
+  }
+}
 .sun {
   height: 42px;
   width: 42px;
@@ -138,10 +148,28 @@ hr {
 }
 
 div#card1.card {
-  border: 2px solid red;
-  mask-size: contain;
-  -webkit-mask-size: contain;
+  mask: url("Untitled.svg");
+  -webkit-mask: url("Untitled.svg");
+  -webkit-mask-size: 100% 100%;
+          mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
-  background: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.child2_content {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  width: 2rem;
+  height: 9vh;
+  padding-top: 5vh;
+}
+
+.orange {
+  color: #fdd3a0;
 }/*# sourceMappingURL=card.css.map */

@@ -15,7 +15,10 @@ function App() {
     <div className="App">
       <div className='Card-box'>
         <Header />
-        <Card text={"card1"} content={Child2} objHeight={1} />
+        <div className='image-container'>
+          <Card text={"card1"} content={Child2} objHeight={1} />
+          </div>
+        
         <Card text={"card2"} content={Child3} objHeight={1} />
         <Card text={"card3"} content={Child4} objHeight={2} />
         <Card text={"card4"} content={Child5} objHeight={3} />

@@ -4,7 +4,7 @@ import { AreaChart, Area, XAxis, Tooltip, ResponsiveContainer } from 'recharts';
 const data = [    
     {
         name: 'COLD',
-        uv: 3000,
+        uv: 1000,
     },
     {
         name: 'WARM',
@@ -39,7 +39,6 @@ export default class Example extends PureComponent {
         return (
             <ResponsiveContainer width="100%" height="95%">
                 <AreaChart
-                    
                     width={500}
                     height={400}
                     data={data}
@@ -53,8 +52,9 @@ export default class Example extends PureComponent {
                     {/* <CartesianGrid strokeDasharray="3 3" /> */}
                     <defs>
                         <linearGradient id="colorUv" x1="1" y1="0" x2="0" y2="1">
-                            <stop offset="5%" stopColor="#ffd480" stopOpacity={0.8} />
-                            <stop offset="95%" stopColor="#ff7d67" stopOpacity={0.7} />
+                            <stop offset="5%" stopColor="#ffd480" stopOpacity={0.9} />
+                            <stop offset="50%" stopColor="#f97d59" stopOpacity={1} />
+                            <stop offset="95%" stopColor="#ff7d67" stopOpacity={0.8} />
                         </linearGradient>
                         
                     </defs>
