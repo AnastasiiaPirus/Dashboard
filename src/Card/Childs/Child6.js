@@ -9,7 +9,7 @@ export default function Child6() {
       <table>
         <tbody>
           <tr>
-            <td><img src={'/images/planet1.png'} alt="planet" className='planets'></img></td>
+            <td><img src={process.env.PUBLIC_URL + '/images/planet1.png'} alt="planet" className='planets'></img></td>
             <td>
               <table className='table'>
                 <thead>
@@ -26,7 +26,7 @@ export default function Child6() {
             </td>
           </tr>
           <tr>
-            <td><img src={'/images/planet2.png'} alt="planet" className='planets'></img></td>
+            <td><img src={process.env.PUBLIC_URL +'/images/planet2.png'} alt="planet" className='planets'></img></td>
             <td>
               <table className='table'>
                 <thead>
@@ -43,7 +43,7 @@ export default function Child6() {
             </td>
           </tr>
           <tr>
-            <td><img src={'/images/planet3.png'} alt="planet" className='planets'></img></td>
+            <td><img src={process.env.PUBLIC_URL +'/images/planet3.png'} alt="planet" className='planets'></img></td>
             <td>
               <table className='table'>
                 <thead>
@@ -60,7 +60,7 @@ export default function Child6() {
             </td>
           </tr>
           <tr>
-            <td><img src={'/images/planet4.png'} alt="planet" className='planets'></img></td>
+            <td><img src={process.env.PUBLIC_URL +'/images/planet4.png'} alt="planet" className='planets'></img></td>
             <td>
               <table className='table'>
                 <thead>

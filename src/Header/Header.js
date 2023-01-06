@@ -3,7 +3,7 @@ import './header.css'
 
 export default function Header() {
   return (    
-      <div  className='header'style={{ backgroundImage: "url(/images/1.png)",}}>
+      <div  className='header'>
         <div id="title" style = {{ marginLeft: "15px", marginTop:"10px"}}>WEBSITE DESIGN CREATED BY <a href="https://midjourney.com" class="active" style = {{color: "#dcc4c4"}}>MIDJOURNEY</a></div>
         <div className='circles-container' >
         <div className='circle-text'><span className="circle" style={{backgroundColor: "#ffc98c", color:"#b78177"}}>Dii</span><b>Consentes</b></div>

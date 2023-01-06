@@ -80,7 +80,7 @@
   grid-area: header;
   /* border: 10px red solid; */
   height: 80vh;
-  
+  background-image: url("/public/images/3.png") !important;
 }
 
 
