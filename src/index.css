@@ -9,9 +9,8 @@ body {
   background: rgb(207, 177, 166);
   background: linear-gradient(45deg, #1b1b2a, rgba(255, 0, 0, 0) 80%), linear-gradient(225deg, #cfb1a6, rgba(0, 0, 255, 0) 70%), linear-gradient(315deg, #7e605f, rgba(0, 0, 255, 0) 70%), linear-gradient(135deg, #54515c, rgba(0, 255, 0, 0) 70%);
   background-size: cover;
-  
+  display: grid;
   place-content: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }/*# sourceMappingURL=index.css.map */

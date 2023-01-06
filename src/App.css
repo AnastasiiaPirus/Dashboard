@@ -136,6 +136,28 @@
       "four five six seven";
   }
 }
+@media only screen and (max-width: 600px) {
+
+  /* For mobile: */
+  
+  .Card-box { 
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .circles-container {
+    flex-wrap: wrap!important;
+    height: auto!important;
+    width: auto;
+  }
+  .card {
+    max-width: 95vw;
+  }
+  .header{
+    max-width: 95vw;
+  }
+}
 
 .image-container {
   filter: drop-shadow(-10px 10px 10px rgba(7, 9, 24, 0.45)) drop-shadow(-14px 16px 12px rgba(7, 9, 24, 0.45));
