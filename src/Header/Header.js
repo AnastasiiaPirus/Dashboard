@@ -4,7 +4,7 @@ import './header.css'
 export default function Header() {
   return (    
       <div  className='header'>
-        <div id="title" style = {{ marginLeft: "15px", marginTop:"10px"}}>DESIGN CREATED BY <a href="https://midjourney.com" class="active" style = {{color: "#dcc4c4"}}>MIDJOURNEY</a> <br />FRONT-END PREPARED BY <a href="https://www.linkedin.com/in/anastasia-pirus/" class="active" style = {{color: "#dcc4c4"}}>A. PIRUS</a></div>
+        <div id="title" style = {{ marginLeft: "15px", marginTop:"10px"}}>DESIGN CREATED BY <a href="https://midjourney.com" class="active" style = {{color: "#dcc4c4"}}>MIDJOURNEY</a> <br />FRONT-END MADE BY <a href="https://www.linkedin.com/in/anastasia-pirus/" class="active" style = {{color: "#dcc4c4"}}>A. PIRUS</a></div>
         <div className='circles-container' >
         <div className='circle-text'><span className="circle" style={{backgroundColor: "#ffc98c", color:"#b78177"}}>Dii</span><b>Consentes</b></div>
         <div className='circle-text'><span className="circle" >Juno</span><b>Jupiter</b><br />Minerva<br />Apollo</div>
