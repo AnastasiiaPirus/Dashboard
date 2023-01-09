@@ -192,4 +192,8 @@ div#card1.card {
 
 .orange {
   color: #fdd3a0;
+}
+
+#card1, #card2 {
+  min-height: 100px;
 }/*# sourceMappingURL=card.css.map */

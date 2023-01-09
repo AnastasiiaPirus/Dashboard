@@ -232,3 +232,7 @@ div#card1.card {
 .orange {
     color:$number;
 }
+
+#card1, #card2 {
+    min-height: 100px;
+}

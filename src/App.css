@@ -12,12 +12,12 @@
     'seven'
   ;
   width: 95vw;
-  row-gap: 15px;
+  row-gap: 10px;
   column-gap: 15px;
   margin: auto;
   align-content: end;
   margin-top: 1vh;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 
   min-width: auto;
   min-height: auto;
