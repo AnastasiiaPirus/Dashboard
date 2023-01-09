@@ -4,15 +4,24 @@ import "./card.css"
 
 export default function Card({ text = "abc", content , objHeight = 1}) {
   const Tag = content
-  objHeight = (12*objHeight + 'vh')
+  let objHeightVh = (12*objHeight + 'vh')
+  let objHeightPx= (120*objHeight + 'px')
   const mystyle = {
-    height: objHeight,
-    minHeight: objHeight,
-    maxWidth: "100%",
+    height: objHeightVh,
+    // minHeight: objHeightVh,
+    maxWidth: "100vw",
     margin:"auto",
     width: "95%",    
     
   };
+  let height = window.innerHeight
+  let width = window.innerWidth
+  if (height > 1000 ) {
+    mystyle.height = objHeightPx;
+    mystyle.minHeight = objHeightPx;
+  }
+
+
   return (
     <div className='card' id={text} style={mystyle} >
       <Tag />

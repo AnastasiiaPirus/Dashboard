@@ -18,8 +18,23 @@
 
 .chart {
   margin-left: -20px;
+  height: 20vh;
+  width: 30%;
+  margin-top: -10px;
 }
 
+.chart.chart2 {
+  height: 20vh;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+@media only screen and (min-height: 1000px) {
+  .chart, .chart.chart2 {
+    height: 200px;
+  }
+}
 .ulist_chart {
   margin-left: -20px;
 }
@@ -81,6 +96,11 @@ li:nth-child(7) {
   width: 100%;
 }
 
+@media only screen and (min-height: 1000px) {
+  .child7 {
+    height: 320px;
+  }
+}
 .bottomItems {
   width: -webkit-min-content;
   width: -moz-min-content;

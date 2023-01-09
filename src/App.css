@@ -131,6 +131,7 @@
   /* For desktop: */
   .Card-box {
     max-width: 1900px;
+    /* max-height: 1000px; */
     grid-template-areas:
       "header header header one"
       "header header header two"
@@ -140,6 +141,12 @@
       "four five six seven"
       "four five six seven";
   }
+  
+  /* body{
+    max-height: 1000px;
+  }
+   */
+ 
 
 }
 
@@ -162,6 +169,7 @@
   body .number {
     font-size: 2.2rem;
   }
+  
 }
 
 /* @media only screen and (min-width: 1700px) {
@@ -217,4 +225,11 @@
   max-width: 100vw;
   margin: auto;
   width: 100%;
+}
+
+@media only screen  and (min-height: 1000px) {
+  .image-container{
+      min-height: 130px; 
+      height: 130px; 
+  }
 }

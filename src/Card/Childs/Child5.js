@@ -7,7 +7,7 @@ export default function Child5() {
       <p><span>CLOSEST PLANETS FACTS</span><span className='more'>Quiz</span></p>
       <div className='chart-box' style={{ height: "100%", width: "100%" }}>
 
-        <div className='chart' style={{ height: "20vh", width: "30%", marginTop: "-10px" }} >
+        <div className='chart'>
           <Example />
         </div>
         <div className='ulist_chart'>
