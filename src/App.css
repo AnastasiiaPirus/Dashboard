@@ -169,6 +169,16 @@
   body .number {
     font-size: 2.2rem;
   }
+  body .child2_content {
+    /* display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    width: 2rem; */
+    height: 90px;
+    padding-top: 50px;
+}
   
 }
 
