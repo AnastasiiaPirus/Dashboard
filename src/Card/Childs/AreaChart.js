@@ -49,7 +49,7 @@ export default class Example extends PureComponent {
                         bottom: 0,
                     }}
                 >
-                    {/* <CartesianGrid strokeDasharray="3 3" /> */}
+
                     <defs>
                         <linearGradient id="colorUv" x1="1" y1="0" x2="0" y2="1">
                             <stop offset="5%" stopColor="#ffd480" stopOpacity={0.9} />
@@ -59,7 +59,6 @@ export default class Example extends PureComponent {
                         
                     </defs>
                     <XAxis dataKey="name" tick={{ fill: '#dcc4c4' }} tickLine={{ stroke: '#dcc4c4' }}/>
-                    {/* <YAxis tick={{ fill: '#dcc4c4' }} tickLine={{ stroke: '#dcc4c4' }} /> */}
                     <Tooltip />
                     <Area  dataKey="uv" stroke="#dcc4c4" fillOpacity={1} fill="url(#colorUv)" />
                 </AreaChart>

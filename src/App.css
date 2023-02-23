@@ -22,10 +22,6 @@
   min-width: auto;
   min-height: auto;
 
-  /* margin: 0; */
-  /* display: flex;
-  flex-wrap: wrap; */
-
 }
 
 
@@ -170,40 +166,13 @@
     font-size: 2.2rem;
   }
   body .child2_content {
-    /* display: flex;
-    justify-content: center;
-    margin-right: 30px;
-    margin-bottom: 10px;
-    flex-wrap: wrap;
-    width: 2rem; */
     height: 90px;
     padding-top: 50px;
 }
   
 }
 
-/* @media only screen and (min-width: 1700px) {
-  body * {
-    font-size: 1rem;
-  }
 
-  body .planets {
-    width: 75px;
-    height: 75px;
-  }
-
-  body .sun {
-    width: 70px;
-    height: 70px;
-  }
-
-  body .circle {
-    width: 70px;
-    height: 70px;
-  }
-
-
-} */
 
 
 @media only screen and (max-width: 600px) {
